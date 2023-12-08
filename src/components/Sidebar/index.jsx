@@ -8,7 +8,11 @@ import LogoS from "../../assets/images/logo-s.png";
 import LogoSubtitle from "../../assets/images/logo_sub.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
-import {faGithub, faLinkedin, faXTwitter }from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Sidebar = () => {
   return (
@@ -42,21 +46,34 @@ const Sidebar = () => {
         </NavLink>
       </nav>
 
+      {/* Social media links  */}
       <ul>
         <li>
-          <a target="_blank" rel="noreferrer" href="https://github.com/OumarLAM/Oumar_LAM">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/OumarLAM/Oumar_LAM"
+          >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
 
         <li>
-          <a target="_blank" rel="noreferrer" href="https://twitter.com/oumarlam_fcb">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/oumarlam_fcb"
+          >
             <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
           </a>
         </li>
 
         <li>
-          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/oumar-lam-692b641a7/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/oumar-lam-692b641a7/"
+          >
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li>
