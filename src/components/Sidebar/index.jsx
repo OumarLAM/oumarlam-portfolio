@@ -24,7 +24,7 @@ const Sidebar = () => {
 
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#F9FCEF" />
         </NavLink>
 
         <NavLink
@@ -33,7 +33,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#F9FCEF" />
         </NavLink>
 
         <NavLink
@@ -42,7 +42,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#F9FCEF" />
         </NavLink>
       </nav>
 
@@ -54,7 +54,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://github.com/OumarLAM/Oumar_LAM"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faGithub} color="#F9FCEF" />
           </a>
         </li>
 
@@ -64,7 +64,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://twitter.com/oumarlam_fcb"
           >
-            <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faXTwitter} color="#F9FCEF" />
           </a>
         </li>
 
@@ -74,7 +74,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/oumar-lam-692b641a7/"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faLinkedin} color="#F9FCEF" />
           </a>
         </li>
       </ul>
