@@ -10,9 +10,9 @@ const Home = () => {
         <img src={LogoTitle} alt="Developer" />
         amdev
         <br />
-        A 01 developer
+        An IT Enthusiast
         </h1>
-        <h2>Full Stack Developer | Eternal Learner | Problem Solver</h2>
+        <h2>Problem Solver | Eternal Learner | Full Stack Developer </h2>
         <Link to='/contact' className='flat-button'>CONTACT ME</Link>
       </div>
     </div>
