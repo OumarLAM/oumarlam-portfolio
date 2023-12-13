@@ -62,7 +62,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <Loader type="ball-beat" />
+      <Loader type="line-spin-fade-loader" />
     </>
   );
 };

@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type='ball-beat'/>
+      <Loader type='line-spin-fade-loader'/>
     </>
   );
 };
