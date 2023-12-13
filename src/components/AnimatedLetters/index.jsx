@@ -5,7 +5,7 @@ const AnimatedLetters = ({ letterClass, strArray, index }) => {
   return (
     <span>
       {strArray.map((char, i) => (
-        <span key={char + index} className={`${letterClass} _${i}`}>
+        <span key={char + i + index} className={`${letterClass} _${i}`}>
           {char}
         </span>
       ))}

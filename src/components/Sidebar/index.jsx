@@ -1,5 +1,4 @@
 // ******TO DO******
-// - Replace logo and sub-logo by mines
 // - Change colors (optional)
 
 import { Link, NavLink } from "react-router-dom";
