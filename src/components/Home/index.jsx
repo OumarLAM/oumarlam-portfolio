@@ -3,7 +3,6 @@ import LogoTitle2 from "../../assets/images/logo-s2.png";
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from "react";
-import Loader from 'react-loaders';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -62,7 +61,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <Loader type="line-spin-fade-loader" />
     </>
   );
 };

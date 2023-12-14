@@ -2,7 +2,6 @@ import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
-import Loader from 'react-loaders';
 import {
   faCss3,
   faGitAlt,
@@ -75,7 +74,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type='line-spin-fade-loader'/>
     </>
   );
 };
